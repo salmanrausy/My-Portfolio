@@ -11038,6 +11038,37 @@ pre {
   color: #023e8a;
 }
 
+.testimoni {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.testimoni .social-item {
+  display: block;
+  margin: 0 5px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #ade8f4;
+  color: #f8f9fa;
+  background: #0077b6;
+  text-align: center;
+  line-height: 60px;
+  -webkit-transition: all 0.3s;
+  transition: all 1s;
+  text-decoration: none;
+}
+
+.testimoni .social-item:hover {
+  background: #90e0ef;
+  border: 2px solid #00b4d8;
+  color: #023e8a;
+}
+
+
 .btn {
   font-size: 14px;
   font-weight: bold;
